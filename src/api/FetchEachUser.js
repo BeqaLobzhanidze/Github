@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ACCESS_TOKEN = "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";
+const ACCESS_TOKEN = "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";
 const EACH_USER = "https://api.github.com/users/";
 
 async function FetchEachUser(login) {
