@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Github/static/css/main.67593190.chunk.css",
-    "main.js": "/Github/static/js/main.855f4916.chunk.js",
-    "main.js.map": "/Github/static/js/main.855f4916.chunk.js.map",
+    "main.js": "/Github/static/js/main.f20b45d9.chunk.js",
+    "main.js.map": "/Github/static/js/main.f20b45d9.chunk.js.map",
     "runtime-main.js": "/Github/static/js/runtime-main.b597549d.js",
     "runtime-main.js.map": "/Github/static/js/runtime-main.b597549d.js.map",
-    "static/js/2.15f46f80.chunk.js": "/Github/static/js/2.15f46f80.chunk.js",
-    "static/js/2.15f46f80.chunk.js.map": "/Github/static/js/2.15f46f80.chunk.js.map",
+    "static/js/2.eff6b060.chunk.js": "/Github/static/js/2.eff6b060.chunk.js",
+    "static/js/2.eff6b060.chunk.js.map": "/Github/static/js/2.eff6b060.chunk.js.map",
     "index.html": "/Github/index.html",
     "static/css/main.67593190.chunk.css.map": "/Github/static/css/main.67593190.chunk.css.map",
-    "static/js/2.15f46f80.chunk.js.LICENSE.txt": "/Github/static/js/2.15f46f80.chunk.js.LICENSE.txt",
+    "static/js/2.eff6b060.chunk.js.LICENSE.txt": "/Github/static/js/2.eff6b060.chunk.js.LICENSE.txt",
     "static/media/SignUpForm.module.css": "/Github/static/media/pexels-photo-399161.e30ecd36.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.b597549d.js",
-    "static/js/2.15f46f80.chunk.js",
+    "static/js/2.eff6b060.chunk.js",
     "static/css/main.67593190.chunk.css",
-    "static/js/main.855f4916.chunk.js"
+    "static/js/main.f20b45d9.chunk.js"
   ]
 }
