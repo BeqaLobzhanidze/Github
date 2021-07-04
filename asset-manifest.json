@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Github/static/css/main.2545ce8b.chunk.css",
+    "main.js": "/Github/static/js/main.5fce1a77.chunk.js",
+    "main.js.map": "/Github/static/js/main.5fce1a77.chunk.js.map",
+    "runtime-main.js": "/Github/static/js/runtime-main.b597549d.js",
+    "runtime-main.js.map": "/Github/static/js/runtime-main.b597549d.js.map",
+    "static/js/2.15f46f80.chunk.js": "/Github/static/js/2.15f46f80.chunk.js",
+    "static/js/2.15f46f80.chunk.js.map": "/Github/static/js/2.15f46f80.chunk.js.map",
+    "index.html": "/Github/index.html",
+    "static/css/main.2545ce8b.chunk.css.map": "/Github/static/css/main.2545ce8b.chunk.css.map",
+    "static/js/2.15f46f80.chunk.js.LICENSE.txt": "/Github/static/js/2.15f46f80.chunk.js.LICENSE.txt",
+    "static/media/SignUpForm.module.css": "/Github/static/media/pexels-photo-399161.e30ecd36.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b597549d.js",
+    "static/js/2.15f46f80.chunk.js",
+    "static/css/main.2545ce8b.chunk.css",
+    "static/js/main.5fce1a77.chunk.js"
+  ]
+}
