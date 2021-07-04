@@ -1,0 +1,22 @@
+.add button {
+ font-size: 15px;
+ padding: 10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: green;
+ color: white;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.add,
+.remove {
+  text-align: center;
+}
+.remove button {
+  font-size: 15px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+ }

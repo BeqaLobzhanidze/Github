@@ -1,0 +1,18 @@
+
+.input label {
+  position: relative;
+  right: 20px;
+  display: block;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  margin-bottom: .5rem;
+}
+input {
+  width: 300px;
+  padding: 8px;
+  font-size: 15px;
+}
+

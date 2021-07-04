@@ -1,0 +1,15 @@
+const ROUTE_PAGE_DASHBOARD = "/Dashboard";
+const ROUTE_PAGE_SIGNUP = "/SignUp";
+const ROUTE_PAGE_SIGNIN = "/";
+const ROUTE_PAGE_USER = "/user/:id";
+const ROUTE_PAGE_FAVORITES = "/favorites";
+const ROUTE_PAGE_SEARCH = "/search";
+
+export {
+  ROUTE_PAGE_DASHBOARD,
+  ROUTE_PAGE_SIGNIN,
+  ROUTE_PAGE_SIGNUP,
+  ROUTE_PAGE_USER,
+  ROUTE_PAGE_FAVORITES,
+  ROUTE_PAGE_SEARCH,
+};

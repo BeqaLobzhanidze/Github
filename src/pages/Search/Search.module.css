@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.container input {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.container button {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 0;
+  border-radius: 10px;
+  background-color: rgb(51, 48, 53);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: aliceblue;
+  cursor: pointer;
+  padding:.5rem 0;
+}
+.container button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.wrapper {
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

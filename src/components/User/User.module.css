@@ -1,0 +1,59 @@
+
+.User {
+  width: 20%;
+  min-height: 400px;
+  padding: 10px;
+  margin:.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.img img{
+  width: 100%;
+}
+
+main a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style:normal;
+  color: rgb(46, 2, 2);
+}
+.user {
+  width: 100%;
+  background-color: blue;
+}
+.User:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1200px) {
+  .User {
+    width: 30%;
+  }
+  h1 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .User {
+    width: 40%;
+  }
+  h1 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .User {
+    width: 80%;
+  }
+  h1 {
+    font-size: 14px;
+  }
+}
