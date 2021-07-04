@@ -21,7 +21,7 @@ function Search() {
         .finally(() => setLoading(false));
     }
   }, [counter]);
-  
+
   useEffect(() => {
     localStorage.setItem("path", ROUTE_PAGE_SEARCH);
   }, []);

@@ -45,33 +45,32 @@ function SignUpForm() {
   }, [effect]);
   return (
     <main className={styles.container}>
-<form className={styles.form}>
-      {error && <h4 style={{ color: "red" , width: "300px" }}>{error}</h4>}
-      {loading ? (
-        <HashLoader color={"green"} size={50} />
-      ) : (
-        <>
-          {signUpForm.map((item) => (
-            <Input
-              key={item.id}
-              value={item.value}
-              type={item.type}
-              setUser={setUser}
-              user={user}
-            />
-          ))}
-          <button
-            type="submit"
-            className={styles.SignUp}
-            onClick={(e) => HandleClick(e)}
-          >
-            Sign Up
-          </button>
-        </>
-      )}
-    </form>
+      <form className={styles.form}>
+        {error && <h4 style={{ color: "red", width: "300px" }}>{error}</h4>}
+        {loading ? (
+          <HashLoader color={"green"} size={50} />
+        ) : (
+          <>
+            {signUpForm.map((item) => (
+              <Input
+                key={item.id}
+                value={item.value}
+                type={item.type}
+                setUser={setUser}
+                user={user}
+              />
+            ))}
+            <button
+              type="submit"
+              className={styles.SignUp}
+              onClick={(e) => HandleClick(e)}
+            >
+              Sign Up
+            </button>
+          </>
+        )}
+      </form>
     </main>
-    
   );
 }
 

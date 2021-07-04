@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import Hashloader from "react-spinners/HashLoader";
 import PropTypes from "prop-types";
 
-function SignInForm({state}) {
+function SignInForm({ state }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -40,61 +40,66 @@ function SignInForm({state}) {
 
   return (
     <main className={styles.container}>
-<form className={styles.form}>
-      {errors && (
-        <>
-          <h4 style={{ color: "red" , width:"300px" }}>{errors}</h4>
-        </>
-      )}
-      {(loading && !errors) ? (
-        <Hashloader size={50} color={"green"} />
-      ) : (
-        <>
-          <h1>
-        {state?.success && (
-          <h3 style={{ textAlign: "center", marginTop: "20px" , color:"red" }}>
-            Sign In Succesfully
-          </h3>
+      <form className={styles.form}>
+        {errors && (
+          <>
+            <h4 style={{ color: "red", width: "300px" }}>{errors}</h4>
+          </>
         )}
-      </h1>
-          <div className={styles.input}>
-            <label htmlFor="username">Username</label>
-            <input
-              type="text"
-              id="username"
-              placeholder="Username"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-            />
-          </div>
-          <div className={styles.input}>
-            <label htmlFor="Password">Password</label>
-            <input
-              type="password"
-              id="Password"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </div>
-          <div className={styles.cont}>
-            <button className={styles.SignIn} onClick={(e) => handleClick(e)}>
-              Sign In
-            </button>
-            <Link to={ROUTE_PAGE_SIGNUP}>
-              <button className={styles.SignUp}>Sign Up</button>
-            </Link>
-          </div>
-        </>
-      )}
-    </form>
+        {loading && !errors ? (
+          <Hashloader size={50} color={"green"} />
+        ) : (
+          <>
+            <h1>
+              {state?.success && (
+                <h3
+                  style={{
+                    textAlign: "center",
+                    marginTop: "20px",
+                    color: "red",
+                  }}
+                >
+                  Sign In Succesfully
+                </h3>
+              )}
+            </h1>
+            <div className={styles.input}>
+              <label htmlFor="username">Username</label>
+              <input
+                type="text"
+                id="username"
+                placeholder="Username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+              />
+            </div>
+            <div className={styles.input}>
+              <label htmlFor="Password">Password</label>
+              <input
+                type="password"
+                id="Password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
+            <div className={styles.cont}>
+              <button className={styles.SignIn} onClick={(e) => handleClick(e)}>
+                Sign In
+              </button>
+              <Link to={ROUTE_PAGE_SIGNUP}>
+                <button className={styles.SignUp}>Sign Up</button>
+              </Link>
+            </div>
+          </>
+        )}
+      </form>
     </main>
-    
   );
 }
 
 SignInForm.propTypes = {
-  state : PropTypes.object
-}
+  state: PropTypes.object,
+};
 
 export default SignInForm;

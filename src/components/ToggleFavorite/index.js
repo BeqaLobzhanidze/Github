@@ -8,7 +8,9 @@ function ToggleFavorite() {
   const { watchers } = useUser();
 
   useEffect(() => {
-    if (favorites.filter((item) => item.username == watchers.username).length > 0)
+    if (
+      favorites.filter((item) => item.username == watchers.username).length > 0
+    )
       setIsFavorite(true);
     else setIsFavorite(false);
   }, [favorites]);

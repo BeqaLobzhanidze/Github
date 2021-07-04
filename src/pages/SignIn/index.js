@@ -1,7 +1,7 @@
 import React from "react";
 import SignInForm from "../../components/SignInForm";
 import PropTypes from "prop-types";
-import styles from "./SignIn.module.css"
+import styles from "./SignIn.module.css";
 
 function SignIn({ location }) {
   const { state } = location;
@@ -15,7 +15,7 @@ function SignIn({ location }) {
           </h3>
         )}
       </h1> */}
-      <SignInForm state={state}/>
+      <SignInForm state={state} />
     </div>
   );
 }

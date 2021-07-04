@@ -12,7 +12,7 @@ function FavoriteUser({ property }) {
       <div className={styles.image}>
         <img src={property.url} alt="avatar" />
       </div>
-      <h1 style={{color:"white"}}>{property.username}</h1>
+      <h1 style={{ color: "white" }}>{property.username}</h1>
       <div>
         <button onClick={() => setShowModal(true)}>Delete</button>
       </div>

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
-const access_token = "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";
+const access_token = "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";
 
 async function FetchUsers(number) {
   try {
